@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  overflow: hidden;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+/* Floating Background Circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  animation: float 10s infinite ease-in-out;
+}
+.circle:nth-child(1) {
+  width: 120px; height: 120px;
+  top: 10%; left: 15%;
+  animation-duration: 12s;
+}
+.circle:nth-child(2) {
+  width: 200px; height: 200px;
+  bottom: 15%; right: 10%;
+  animation-duration: 15s;
+}
+.circle:nth-child(3) {
+  width: 150px; height: 150px;
+  top: 70%; left: 20%;
+  animation-duration: 18s;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+/* Card */
+.todo-card {
+  max-width: 950px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  animation: fadeIn 0.8s ease-in-out;
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+}
+
+.completed td {
+  text-decoration: line-through;
+  color: #6c757d;
+  background: #e0f7e9 !important;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
