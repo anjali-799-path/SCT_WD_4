@@ -27,7 +27,9 @@ CSS3 – Styling & responsive layout
 
 JavaScript (ES6) – Task handling logic & interactivit
 
-📸 Screenshots
+📸 Screenshot
+
+https://github.com/user-attachments/assets/55d0c9cf-5a31-4df5-ac2e-602037b7893a
 
 
 
