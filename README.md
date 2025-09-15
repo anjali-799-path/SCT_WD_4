@@ -1,36 +1,55 @@
 # SCT_WD_4
-# 🧮 Calculator Web App
 
-A clean and responsive **calculator web application** built with **HTML, CSS, and JavaScript**.  
-It supports both **keyboard and numpad inputs**, includes **error handling**, and is designed with **basic accessibility** in mind.  
+✅ To-Do Web App
 
----
+A simple and interactive To-Do Web Application developed as part of the SkillCraft Technology Internship (Task 04).
+This app helps users manage their daily tasks efficiently by adding, editing, organizing, and marking them as completed.
 
-## 🚀 Features
-- ➕➖✖️➗ Perform basic arithmetic operations (add, subtract, multiply, divide)  
-- ⚡ Handles tricky cases like:
-  - Divide by zero (shows error instead of crashing)
-  - Float rounding (limits to reasonable decimals)
-  - Prevents multiple decimal points in a number
-- ⌨️ Supports **keyboard and numpad input** for faster use  
-- ♿ Accessibility:
-  - Focus states for buttons  
-  - `aria-live` updates for announcing results  
-- 📱 Responsive design – works on desktop & mobile  
-- 🎯 Future roadmap:
-  - Calculation **history log**  
-  - **Memory functions** (M+, M-, MR, MC)
+🚀 Features
 
----
+➕ Add new tasks
 
-## 🛠️ Tech Stack
-- **HTML5**  
-- **CSS3** (modern, responsive styling)  
-- **JavaScript (ES6)**  
+📝 Edit or update existing tasks
 
----
+✔️ Mark tasks as completed
 
-## 📸 Preview
-(Add a screenshot here if you have one)
+🗑️ Delete tasks when no longer needed
 
----
+📅 Set date & time for each task
+
+📊 Organized and user-friendly task management
+
+🛠️ Tech Stack
+
+HTML5 – Structure
+
+CSS3 – Styling & responsive layout
+
+JavaScript (ES6) – Task handling logic & interactivit
+
+📸 Screenshots
+
+
+
+📌 Future Enhancements
+
+🔔 Add notifications & reminders
+
+🌙 Dark mode support
+
+💾 Local storage/database integration
+
+📱 Mobile-optimized UI
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+
+📧 Contact
+
+👩‍💻 Anjali Pathak
+
+LinkedIn: https://www.linkedin.com/in/anjali-pathak-945564272/
+
+✨ Developed with passion during my SkillCraft Technology Internship.
